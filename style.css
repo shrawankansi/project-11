@@ -40,6 +40,7 @@ body {
 
 .Greate-website{
     margin-top: 100px;
+  
 }
 .Greate-website h1{
     font-size: 45px;
@@ -324,14 +325,21 @@ padding: 15px;
 
 
 /* ------------------media query----------------------------- */
-/* @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .navbar ul{
-      
-        gap: 0px;
+      display: none;
+       
        
     }
+    .Greate-website{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+
+    }
     .Greate-website img {
-        margin-left: 400px;
+        /* display: none; */
+        
     }
     .We-Provide img{
         width: 400px;
@@ -364,13 +372,9 @@ padding: 15px;
     .bottom{
         margin-top: 130vh;
     }
-} */
+}
 @media screen and (max-width:640px) {
-    .navbar ul{
-      
-        gap: 0px;
-       
-    }
+    
     .Greate-website img {
         margin-left: 400px;
     }
