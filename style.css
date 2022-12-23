@@ -13,8 +13,6 @@ html, body {
 
 }
 body {
-   
-    
     background-color: rgb(255, 255, 255);
 }
 .navbar{
@@ -36,7 +34,7 @@ body {
     font-size: 22px;
     list-style: none;
 }
-/*   //////////////end navbar ////////////////////////////////////// */
+/*   //////////////end navbar /////////////////////////////////// */
 
 .Greate-website{
     margin-top: 100px;
